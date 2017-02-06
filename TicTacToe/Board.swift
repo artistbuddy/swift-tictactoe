@@ -38,7 +38,7 @@ class Board : CustomStringConvertible {
     
     func availableMoves() -> Array<Int> {
         
-        var result:Array<Int> = []
+        var result : Array<Int> = []
         for (i, value) in board.enumerated() {
             if value == Figure.empty {
                 result.append(i)

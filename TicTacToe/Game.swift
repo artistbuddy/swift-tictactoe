@@ -9,7 +9,6 @@
 import Foundation
 
 class Game {
-    
     var board = Board()
     
     func run() {
